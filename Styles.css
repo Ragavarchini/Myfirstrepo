@@ -1,0 +1,26 @@
+div{
+    background-color: aqua;
+    text-align: center;
+    height: 60px;
+    font-size: x-large;
+}
+h2{
+    text-decoration: solid;
+    padding-left: 100px;
+    font-size: 40px;
+    color: rgb(18, 173, 43);
+ 
+}
+
+img{
+    width: 290px;
+    padding-left: 100px;
+}
+
+audio{
+    padding-left: 80px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
