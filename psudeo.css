@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    transition: all 2s;
+    /* transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 3s;
+} */
+}
+div:hover{
+    color: rgb(255, 255, 255);
+    background-color: brown;
+     transition: all; 
+    width: 500px;
+    height: 5000px;
+}

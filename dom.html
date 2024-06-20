@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading"></h1>
+    <p class="para">para</p>
+    <p class="para">p2</p>
+    <p class="para">p3</p>
+    <p class="para">p4</p>
+    <button onclick="myfun()">click me</button>
+
+</body>
+ <script>
+
+// document.querySelector("#heading").innerText = animals
+// document.querySelectorAll(".para").innerHTML
+
+function myfun(){
+          var animals = ["deer","tiger","elephant","cat"]
+         document.getElementById("heading").innerText="Animals"
+         for(var i in animals){
+             document.getElementsByClassName("para")[i].innerHTML = animals[i]
+         }
+
+}
+ </script>
+</html>

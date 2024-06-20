@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="inputfield1" ><br>
+     <input type="number" id="inputfield2"><br>
+    <button onclick="myfun()">ADD</button>
+    <button ondblclick="sub()">SUB</button>
+    <button onmouseenter="mul()">MUL</button>
+    <button onmouseover="div()">DIV</button>
+    
+</body>
+
+<script>
+
+    let myfun = () =>{
+        var variable1 = parseInt(document.getElementById('inputfield1').value);
+        var variable2 = parseInt(document.getElementById('inputfield2').value);
+        document.write("Adding: ")
+        document.write(variable1+variable2)
+        
+    }
+    let sub = () =>{
+        var variable1 = parseInt(document.getElementById('inputfield1').value);
+        var variable2 = parseInt(document.getElementById('inputfield2').value);
+        document.write("Subtracting: ")
+        document.write(variable1-variable2)
+    }
+    let mul = () =>{
+        var variable1 = parseInt(document.getElementById('inputfield1').value);
+        var variable2 = parseInt(document.getElementById('inputfield2').value);
+        document.write("Multipying: ")
+        document.write(variable1*variable2)
+    }
+    let div = () =>{
+        var variable1 = parseInt(document.getElementById('inputfield1').value);
+        var variable2 = parseInt(document.getElementById('inputfield2').value);
+        document.write("Dividing: ")
+        document.write(variable1/variable2)
+    }
+</script>
+</html>
