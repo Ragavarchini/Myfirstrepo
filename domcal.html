@@ -12,7 +12,12 @@
     <button ondblclick="sub()">SUB</button>
     <button onmouseenter="mul()">MUL</button>
     <button onmouseover="div()">DIV</button>
-    
+    <!-- <p>
+        <span>
+            <input type="text" id="result" >
+        </span>
+    </p>
+     -->
 </body>
 
 <script>
@@ -20,8 +25,9 @@
     let myfun = () =>{
         var variable1 = parseInt(document.getElementById('inputfield1').value);
         var variable2 = parseInt(document.getElementById('inputfield2').value);
+         var result = document.getElementById('inputfield1').innerHTML=variable2
         document.write("Adding: ")
-        document.write(variable1+variable2)
+         document.write(variable1+variable2)
         
     }
     let sub = () =>{
@@ -33,8 +39,8 @@
     let mul = () =>{
         var variable1 = parseInt(document.getElementById('inputfield1').value);
         var variable2 = parseInt(document.getElementById('inputfield2').value);
-        document.write("Multipying: ")
-        document.write(variable1*variable2)
+         document.write("Multipying: ")
+         document.write(variable1*variable2)
     }
     let div = () =>{
         var variable1 = parseInt(document.getElementById('inputfield1').value);
